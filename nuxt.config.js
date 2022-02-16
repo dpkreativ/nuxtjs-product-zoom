@@ -12,6 +12,15 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://product-gallery.cloudinary.com/all.js',
+      },
+      {
+        body: true,
+        src: '/js/cloudinary.js',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
