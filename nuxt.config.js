@@ -16,6 +16,10 @@ export default {
       {
         src: 'https://product-gallery.cloudinary.com/all.js',
       },
+      {
+        body: true,
+        src: '/js/cloudinary.js',
+      },
     ],
   },
 
