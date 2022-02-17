@@ -4,7 +4,7 @@
       <h2 class="font-bold text-xl">Product Gallery Demo</h2>
       <p>Click on each image to zoom</p>
     </div>
-    <div id="product-gallery" class="w-full"></div>
+    <div id="product-gallery"></div>
   </div>
 </template>
 
